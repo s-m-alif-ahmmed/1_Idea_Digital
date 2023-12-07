@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image-1
+{
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/Home-page-Hero-Image-Low-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image
+{
+    height: 750px;
+    background-image: url("../img/Decathlon-uai-1440x810.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-section
+{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/Decathlon-uai-1440x810.jpg");
+}
+
+.font-pop-400 {
+    font-family: 'Poppins', sans-serif-400;
+    font-size: 12px;
+    font-weight: 400;
+}
+.font-pop-600 {
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+}
+
+
+
