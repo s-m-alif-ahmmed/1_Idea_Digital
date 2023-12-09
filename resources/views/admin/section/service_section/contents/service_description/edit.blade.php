@@ -69,7 +69,7 @@
 
                                 <div class="col-12">
                                     <label class="form-label"> Service Description </label>
-                                    <textarea class="form-control" type="text" name="description" id="summernote" placeholder="Enter service description " required >{!! $service_description->description !!}</textarea>
+                                    <textarea class="form-control" type="text" name="description" placeholder="Enter service description " required >{!! $service_description->description !!}</textarea>
                                 </div>
 
                                 <div class="col-12 text-center">
