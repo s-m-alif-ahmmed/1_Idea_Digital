@@ -1,7 +1,7 @@
-<section class="pt-4">
+<section class=" m-0 pt-0">
     <div class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-white bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-white">
 
                 <div class="col-md-2">
                     <a class="navbar-brand" href="{{ route('home') }}">
@@ -11,32 +11,42 @@
                     </a>
                 </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="col-md-8 collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="col-md-8 collapse tabs navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav align-items-center">
-                        <li class="nav-item">
-                            <a href="{{ route('home') }}" class="text-decoration-none text-black font-pop-600 px-4">HOME</a>
+                        <li class="nav-item active">
+                            <a href="{{ route('home') }}" class="active text-decoration-none text-black font-pop-400 px-4" style="font-family: Poppins, sans-serif;">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('about') }}" class="text-decoration-none text-black font-pop-600 px-4">ABOUT US</a>
+                            <a href="{{ route('about') }}" class="text-decoration-none text-black font-pop-400 px-4" style="font-family: Poppins, sans-serif;">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('case.studies') }}" class="text-decoration-none text-black font-pop-600 px-4">CASE STUDIES</a>
+                            <a href="{{ route('case.studies') }}" class="text-decoration-none text-black font-pop-400 px-4" style="font-family: Poppins, sans-serif;">CASE STUDIES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('services') }}" class="text-decoration-none text-black font-pop-600 px-4">SERVICES</a>
+                            <a href="{{ route('services') }}" class="text-decoration-none text-black font-pop-400 px-4" style="font-family: Poppins, sans-serif;">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('contact') }}" class="text-decoration-none text-black font-pop-600 px-4">CONTACT US</a>
+                            <a href="{{ route('contact') }}" class="text-decoration-none text-black font-pop-400 px-4" style="font-family: Poppins, sans-serif;">CONTACT US</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('blog') }}" class="text-decoration-none text-black font-pop-600 px-4">BLOGS</a>
+                            <a href="{{ route('blog') }}" class="text-decoration-none text-black font-pop-400 px-4" style="font-family: Poppins, sans-serif;">BLOGS</a>
                         </li>
                     </ul>
+                    <div class="tab-highlighter"></div>
                 </div>
+
+                <style>
+                    .tab-highlighter{
+                        color: white;
+                        background-color: red;
+                        width: 150px;
+                        height: 100px;
+                    }
+                </style>
 
                 <div class="col-md-3 collapse navbar-collapse justify-content-start" id="navbarNav">
                     <ul class="navbar-nav d-flex flex-row justify-content-center">
@@ -57,5 +67,37 @@
         </div>
     </div>
 </section>
+
+<script>
+
+    /*Tab Highlighter Functionality*/
+    $(document).on('click', 'nav .tabs ul li a', function(){
+        var $this = $(this);
+        TabHighlighter.set($this);
+        $this.closest('li').siblings('.active').removeClass('active');
+        $this.closest('li').addClass('active');
+    });
+    var TabHighlighter = {
+        set: function($this){
+            $('.tab-highlighter').css({
+                'left':  $this.closest('li').offset().left,
+                'width': $this.closest('li').outerWidth()
+            });
+        },
+        refresh: function(){
+            var $this = $('.tabs ul li.active a');
+            $('.tab-highlighter').css({
+                'left':  $this.closest('li').offset().left,
+                'width': $this.closest('li').outerWidth()
+            });
+        }
+    };
+    $(window).resize(function(){
+        TabHighlighter.refresh();
+    });
+    $(document).ready(function(){
+        TabHighlighter.refresh();
+    });
+</script>
 
 

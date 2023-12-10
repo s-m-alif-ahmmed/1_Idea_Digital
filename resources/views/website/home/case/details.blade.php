@@ -39,7 +39,7 @@
 <section class="banner-section">
     <div class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-white bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-white">
 
                 <div class="col-md-2 d-flex justify-content-center align-items-center">
                     <a class="navbar-brand" href="{{ route('home') }}">
@@ -47,29 +47,29 @@
                     </a>
                 </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon bg-white rounded-2"></span>
                 </button>
 
                 <div class="col-md-8 collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
-                            <a href="{{ route('home') }}" class="text-decoration-none text-white font-pop-600 px-4">HOME</a>
+                            <a href="{{ route('home') }}" class="text-decoration-none text-white font-pop-400 px-4" style="font-family: Poppins, sans-serif;">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('about') }}" class="text-decoration-none text-white font-pop-600 px-4">ABOUT US</a>
+                            <a href="{{ route('about') }}" class="text-decoration-none text-white font-pop-400 px-4" style="font-family: Poppins, sans-serif;">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('case.studies') }}" class="text-decoration-none text-white font-pop-600 px-4">CASE STUDIES</a>
+                            <a href="{{ route('case.studies') }}" class="text-decoration-none text-white font-pop-400 px-4" style="font-family: Poppins, sans-serif;">CASE STUDIES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('services') }}" class="text-decoration-none text-white font-pop-600 px-4">SERVICES</a>
+                            <a href="{{ route('services') }}" class="text-decoration-none text-white font-pop-400 px-4" style="font-family: Poppins, sans-serif;">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('contact') }}" class="text-decoration-none text-white font-pop-600 px-4">CONTACT US</a>
+                            <a href="{{ route('contact') }}" class="text-decoration-none text-white font-pop-400 px-4" style="font-family: Poppins, sans-serif;">CONTACT US</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('blog') }}" class="text-decoration-none text-white font-pop-600 px-4">BLOGS</a>
+                            <a href="{{ route('blog') }}" class="text-decoration-none text-white font-pop-400 px-4" style="font-family: Poppins, sans-serif;">BLOGS</a>
                         </li>
                     </ul>
                 </div>

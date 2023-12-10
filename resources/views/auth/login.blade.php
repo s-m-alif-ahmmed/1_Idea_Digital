@@ -15,7 +15,7 @@
     <title>1Idea Digital</title>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/')}}backend/images/1idea_digital.jpeg" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/')}}website/img/1idea_bulb.png" />
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{asset('/')}}backend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />

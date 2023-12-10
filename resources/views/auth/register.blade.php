@@ -15,23 +15,23 @@
     <title>1Idea Digital</title>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/')}}backend/images/1idea_digital.jpeg" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('/')}}website/img/1idea_bulb.png" />
 
     <!-- BOOTSTRAP CSS -->
-    <link id="style" href="backend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link id="style" href="{{asset('/')}}backend/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- STYLE CSS -->
-    <link href="backend/css/style.css" rel="stylesheet" />
-    <link href="backend/css/skin-modes.css" rel="stylesheet" />
+    <link href="{{asset('/')}}backend/css/style.css" rel="stylesheet" />
+    <link href="{{asset('/')}}backend/css/skin-modes.css" rel="stylesheet" />
 
 
 
     <!--- FONT-ICONS CSS -->
-    <link href="backend/plugins/icons/icons.css" rel="stylesheet" />
+    <link href="{{asset('/')}}backend/plugins/icons/icons.css" rel="stylesheet" />
 
     <!-- INTERNAL Switcher css -->
-    <link href="backend/switcher/css/switcher.css" rel="stylesheet">
-    <link href="backend/switcher/demo.css" rel="stylesheet">
+    <link href="{{asset('/')}}backend/switcher/css/switcher.css" rel="stylesheet">
+    <link href="{{asset('/')}}backend/switcher/demo.css" rel="stylesheet">
 
 </head>
 
@@ -40,7 +40,7 @@
 
 <!-- GLOBAL-LOADER -->
 <div id="global-loader">
-    <img src="backend/images/loader.svg" class="loader-img" alt="Loader">
+    <img src="{{asset('/')}}backend/images/loader.svg" class="loader-img" alt="Loader">
 </div>
 
 <div class="page">
@@ -130,28 +130,28 @@
 
 
 <!-- JQUERY JS -->
-<script src="backend/plugins/jquery/jquery.min.js"></script>
+<script src="{{asset('/')}}backend/plugins/jquery/jquery.min.js"></script>
 
 <!-- BOOTSTRAP JS -->
-<script src="backend/plugins/bootstrap/js/popper.min.js"></script>
-<script src="backend/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{asset('/')}}backend/plugins/bootstrap/js/popper.min.js"></script>
+<script src="{{asset('/')}}backend/plugins/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Perfect SCROLLBAR JS-->
-<script src="backend/plugins/p-scroll/perfect-scrollbar.js"></script>
+<script src="{{asset('/')}}backend/plugins/p-scroll/perfect-scrollbar.js"></script>
 
 <!-- STICKY JS -->
-<script src="backend/js/sticky.js"></script>
+<script src="{{asset('/')}}backend/js/sticky.js"></script>
 
 
 
 <!-- COLOR THEME JS -->
-<script src="backend/js/themeColors.js"></script>
+<script src="{{asset('/')}}backend/js/themeColors.js"></script>
 
 <!-- CUSTOM JS -->
-<script src="backend/js/custom.js"></script>
+<script src="{{asset('/')}}backend/js/custom.js"></script>
 
 <!-- SWITCHER JS -->
-<script src="backend/switcher/js/switcher.js"></script>
+<script src="{{asset('/')}}backend/switcher/js/switcher.js"></script>
 
 </body>
 

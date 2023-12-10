@@ -309,24 +309,29 @@
                 <div class="col-md-6 px-3" >
                     <h3 style="color: black" class="fw-bold">Find Us</h3>
                     <br/>
-                    <p style="color: #990055">Location:</p>
+                    <p style="color: #EC1B24">Location:</p>
 
                     <p class="text-muted">
-                        3rd Floor & 4th Floor,<br/>
-                        DH TOWER<br/>
-                        Navana Real Estate Ltd,<br/>
-                        Back-part , Dhaka – 1205.<br/>
-                        Contact number: +8801705048030, +8801923281111, +8801672498561
+                        NAVANA DH TOWER <br>
+                        6 Panthapath, 3rd & 4th Floor, <br>
+                        Dhaka- 1205. <br>
+                        Contact number: +8801327378011 <br>
+                        Whatsapp:
+                        <a href="https://wa.link/618uph" class="text-decoration-none text-muted" target="_blank">
+                             +8801327377011
+                        </a> ,
+                        <a href="https://wa.link/8nn29g" class="text-decoration-none text-muted" target="_blank">
+                            +8801822919044
+                        </a>
                     </p>
-                    <a href="https://goo.gl/maps/HicT29XCnnnUGWG3A" class="text-decoration-none text-color" >
+                    <a href="https://maps.app.goo.gl/mKNzP6bJWzk6haVG7" class="text-decoration-none text-color" target="_blank">
                         <span class="text-dark" style="font-size: 14px;">OPEN IN MAPS</span>
                     </a>
                     <br/>
                     <hr class="mt-1 mb-0" style="width: 100px; color: black;" />
                     <hr class="mt-1 mb-0" style="width: 100px; color: black;"/>
                     <p class="text-muted">
-                        Sunday - Saturday<br/>
-                        12pm - 11pm
+
                     </p>
                 </div>
                 <div class="col-md-6 px-3">
